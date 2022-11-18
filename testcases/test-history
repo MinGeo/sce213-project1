@@ -1,0 +1,11 @@
+ls
+ls -al
+cp pa1.c pa1-backup.c
+history
+! 1
+touch my_history
+rm my_history
+! 5
+! 3
+! 8
+rm my_history pa1-backup.c
